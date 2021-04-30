@@ -1,6 +1,6 @@
 # Getting Started with GitHub Issues Searcher
 
-This is a very simple single page aplication, allowing to check submitted issues on Github for React repository. This SPA is also written on React (which I didn't know until I wrote this one).
+This is a very simple single page aplication, allowing to check submitted issues on Github for React repository. This SPA is also written on React (which I didn't know until I wrote this one). Written on TypeScript, since it's the most familiar for me (I used to use Angular) and provides some syntax sugar.
 
 Since it's a very simple app, there's no need to use REDUX as a global state machine, thus DTO is based on React's states.
 
