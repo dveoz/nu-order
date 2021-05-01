@@ -136,9 +136,11 @@ export default function Asynchronous() {
               <Typography variant="subtitle1">
                 <a href={selectedValue.html_url}>{selectedValue.html_url}</a>
               </Typography>
-              <ReactMarkdown
-                children={selectedValue.body}
-              />
+              <Typography variant="body2">
+                <ReactMarkdown
+                  children={selectedValue.body}
+                />
+              </Typography>
             </Grid>
           }
         </Grid>
